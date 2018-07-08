@@ -1,10 +1,10 @@
 #  Code Challenge
 
-## Live link: 
+## Live link: https://react-tab-challenge.netlify.com/
 
 ## Github: https://github.com/bovas85/react-tabs-challenge
 
-## Summary of test
+## Summary of the test
 
 For this code challenge, I will create a section of a landing page that displays the offerings from . It will include 3 tabbed sections that automatically switches tabs until the user navigates to a tab on their own. On mobile, it simply provides 3 sections with horizontal scrolling.
 
