@@ -1,0 +1,37 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: $bp-sm) {
+    max-width: $bp-sm - 24px;
+  }
+
+  @media (min-width: $bp-md) {
+    max-width: $bp-md - 24px;
+  }
+
+  @media (min-width: $bp-lg) {
+    max-width: $bp-lg - 48px;
+  }
+
+  @media (min-width: $bp-xl) {
+    max-width: $bp-xl - 48px;
+  }
+}
+
+.button-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: $bp-sm) {
+    max-width: $bp-sm - 24px;
+  }
+
+  @media (min-width: $bp-md) {
+    max-width: $bp-md - 24px;
+  }
+
+  @media (min-width: $bp-lg) {
+    max-width: 1070px;
+  }
+}

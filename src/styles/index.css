@@ -1,0 +1,121 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto; }
+  @media (min-width: 480px) {
+    .container {
+      max-width: 456px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 744px; } }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 976px; } }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1352px; } }
+
+.button-wrapper {
+  max-width: 100%;
+  margin: 0 auto; }
+  @media (min-width: 480px) {
+    .button-wrapper {
+      max-width: 456px; } }
+  @media (min-width: 768px) {
+    .button-wrapper {
+      max-width: 744px; } }
+  @media (min-width: 1024px) {
+    .button-wrapper {
+      max-width: 1070px; } }
+
+.fade-enter {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  will-change: opacity; }
+
+.fade-enter-active {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  transition: opacity 600ms ease-in-out; }
+
+.fade-exit {
+  will-change: opacity;
+  position: absolute;
+  top: 0;
+  opacity: 1; }
+
+.fade-exit-active {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 600ms ease-in-out; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box; }
+
+.app {
+  height: 100%; }
+  @media (min-width: 1024px) {
+    .app {
+      height: 160vh; } }
+
+.mock-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 768px) {
+    .mock-content {
+      height: 150vh; } }
+  .mock-content img {
+    width: 200px;
+    margin: 24px auto; }
+  .mock-content p {
+    display: none;
+    margin: 0;
+    padding: 0; }
+    @media (min-width: 768px) {
+      .mock-content p {
+        display: block; } }
+
+.mobile-sliders h1,
+.desktop-tabs h1 {
+  max-width: 300px;
+  color: #182237;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 33px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 52px; }
+
+.desktop-tabs h1 {
+  margin: 70px auto;
+  text-align: center;
+  max-width: 100%; }
+
+.app-tab {
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  transition: opacity 0.6s ease-in-out; }
+  .app-tab.fade-enter-done {
+    opacity: 1; }
+
+.is-relative {
+  position: relative; }
+  @media (min-width: 1024px) {
+    .is-relative {
+      min-height: 100%;
+      height: 100%; } }

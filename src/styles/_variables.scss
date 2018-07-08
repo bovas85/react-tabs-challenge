@@ -1,0 +1,15 @@
+// main breakpoints
+
+// min-width
+$bp-sm: 480px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xl: 1400px;
+
+// max-width
+$max-sm: $bp-sm - 1;
+$max-md: $bp-md - 1;
+$max-lg: $bp-lg - 1;
+$max-xl: $bp-xl - 1;
+
+// colors

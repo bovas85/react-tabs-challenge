@@ -1,0 +1,67 @@
+.slick-slider {
+  overflow: hidden;
+  padding-bottom: 50px;
+
+  &:last-child {
+    // the last slider shouldn't affect other elements after it
+    padding-bottom: 0;
+  }
+}
+.slick-wrapper {
+  margin-left: 28px;
+
+  .slide {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .slick-track {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .slick-arrow {
+    // arrows are not active but we want to avoid interacting on empty divs if js fails
+    display: none;
+    pointer-events: none;
+  }
+
+  .slick-slide {
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    // gutter between slides
+    padding: 0 5px;
+
+    img {
+      display: block;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      // slide bottom text
+      color: #1f2532;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: normal;
+      letter-spacing: -0.07px;
+      line-height: 20px;
+      text-align: left;
+    }
+
+    &:active {
+      cursor: grab;
+    }
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
