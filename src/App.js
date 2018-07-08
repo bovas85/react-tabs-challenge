@@ -188,14 +188,14 @@ class App extends Component {
         {/* mobile slider is only visible below tablet size */}
         {width < 768
           ? <section className="mobile-sliders">
-              <h1>Design Better. Faster. Together.</h1>
+              <h1>React Code Challenge</h1>
               {API.map((section, index) =>
                 <Slider key={index} slides={section} />
               )}
             </section>
           : // desktop version is visible otherwise
             <section className="desktop-tabs">
-              <h1>Design Better. Faster. Together.</h1>
+              <h1>React Code Challenge</h1>
               {/* list items for each section */}
               <Observer onChange={inView => this.pauseTimer(inView)}>
                 <Wrapper className="wrapper button-wrapper">
