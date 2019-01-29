@@ -14,7 +14,7 @@
     "react-scripts": "^1.1.4",
     "react-slick": "^0.23.1",
     "react-transition-group": "^2.3.1",
-    "serve": "^6.5",
+    "serve": "latest",
     "slick-carousel": "^1.8.1",
     "styled-components": "^3.3.3"
   },
